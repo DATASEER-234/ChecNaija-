@@ -1,4 +1,4 @@
-# ChecNaija — Because Nigeria Is Worth Fighting For
+# ChecNaija — Rebuilding Civic Participation Through AI
 
 > An LLM-powered civic intelligence agent that gives every Nigerian
 > verified truth, visible possibility, and a clear next action.

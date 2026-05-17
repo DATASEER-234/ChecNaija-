@@ -1,43 +1,76 @@
-# ChecNaija — Nigeria's Civic Intelligence Agent
+# ChecNaija🇳🇬 — Because Nigeria Is Worth Fighting For
 
-## What is ChecNaija?
-An AI-powered agent that helps Nigerians verify political claims,
-track politician promises, understand government policies,
-and know their civic rights — benchmarked against working democracies.
+> An LLM-powered civic intelligence agent that gives every Nigerian
+> verified truth, visible possibility, and a clear next action.
 
-## The Problem We Are Solving
-- Political misinformation spreads with no verification
-- Citizens cannot track if politicians are delivering
-- Government policies are written in language people cannot understand
-- Young Nigerians are disengaged with no pathway to action
-- No comparison standard — people do not know what democracy should look like
+## The Problem
 
-## Our Solution — 5 Agent Capabilities
-1. Claim Verification — VERIFIED / FALSE / MISLEADING / UNCONFIRMED
-2. Politician Scorecard — promise vs. delivery breakdown
-3. Policy Plain-Language Explainer
-4. Civic Action Guide — what citizens can legally do
-5. Global Democracy Mirror — Nigeria vs. working democracies
+Over 60% of Nigerian migrants are aged 18–35 (IOM, 2024).
+53% of Nigerian youth are unemployed.
+52% of Nigerian workers surveyed already plan to leave the country.
+Voter turnout collapsed to 26% in 2023.
+
+But the crisis is not just governance. It is an information vacuum.
+
+Nigerian youth are consuming a constant feed of what is broken —
+with no verified information about what is working,
+no tools to hold leaders accountable,
+and no pathway from frustration to action.
+
+The result is a generation leaving the very country
+whose problems they are uniquely positioned to solve.
+
+## What ChecNaija Does
+
+1. CLAIM VERIFICATION
+   Any political message verified against INEC, government records,
+   and trusted news. Returns: VERIFIED / FALSE / MISLEADING / UNCONFIRMED
+
+2. POLITICIAN SCORECARD
+   Enter your state and representative.
+   See what they promised vs. what they delivered. With evidence.
+
+3. POLICY PLAIN-LANGUAGE EXPLAINER
+   Any Nigerian policy explained simply.
+   Personalised to your state, job, and situation.
+
+4. CIVIC ACTION GUIDE
+   Not just what is wrong — but exactly what you can legally do about it.
+   Petitions. FOI requests. Town halls. Lawful protest. Step by step.
+
+5. GLOBAL DEMOCRACY MIRROR
+   How does a working democracy handle this same problem?
+   What is the gap? What should Nigeria look like?
+   What can citizens demand and build to get there?
+
+6. NIGERIA'S POTENTIAL DASHBOARD  ← NEW
+   The resources. The growth sectors. The opportunities.
+   Because a citizen who only knows the problems will leave.
+   A citizen who knows both will stay and build.
 
 ## Tech Stack
-- LLM: Gemini 1.5 Flash (Google AI)
+
+- LLM: Gemini 1.5 Flash (Google AI Studio — free API)
 - Agent Framework: LangChain
 - Interface: Streamlit
 - Language: Python 3.11
+- Data: INEC, V-Dem, Freedom House, World Bank, Nigerian news archives
 
 ## Team
-- Project Lead: IGWE CHINECHEREM CLARA
-- Data Engineer: OGEDENGBE OLUWAFEMI SUNDAY
-- AI Engineer: WISDOM CHILOTAM 
-- Product Engineer: GENESIS UGBEDA
 
-## How To Run
+- Project Lead: Igwe Chinecherem Clara
+- Data Engineer: Ogedengbe OluwaFemi Sunday
+- AI/LLM Engineer: Wisdom Chilotam
+- Product Engineer: Ernest Akubueze
+  
+## Run Locally
 pip install -r requirements.txt
 streamlit run interface/app.py
 
-## Datasets Used
-See docs/SOURCES.md for full disclosure of all data sources.
+## Dataset Disclosure
 
+See Docs/SOURCES.md for full disclosure of all data sources used
 ## Hackathon
+
 DSN x Bluechip LLM Agent Hackathon 3.0
-Submission: 24 May 2026 | Finale: 10 June 2026 @ Eko Hotel
+Submission: 24 May 2026 | Finale: 10 June 2026 @ Eko Hotel & Suites

@@ -1,4 +1,4 @@
-# ChecNaija🇳🇬 — Because Nigeria Is Worth Fighting For
+# ChecNaija — Because Nigeria Is Worth Fighting For
 
 > An LLM-powered civic intelligence agent that gives every Nigerian
 > verified truth, visible possibility, and a clear next action.
@@ -12,7 +12,7 @@ Voter turnout collapsed to 26% in 2023.
 
 But the crisis is not just governance. It is an information vacuum.
 
-Nigerian youth are consuming a constant feed of what is broken —
+Nigerian youth are consuming a constant feed of what is broken 
 with no verified information about what is working,
 no tools to hold leaders accountable,
 and no pathway from frustration to action.
